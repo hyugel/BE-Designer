@@ -20,7 +20,7 @@ if use ABE, command is
 
 # License
 -------
-BE-Designer (except dirent.h) is licensed under the new BSD licence.
+BE-Designer is licensed under the new BSD licence.
 
 Copyright (c) 2018, Gue-ho Hwang and Sangsu Bae
 All rights reserved.
