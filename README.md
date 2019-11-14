@@ -4,7 +4,7 @@ BE-Designer off-line version
 Required program
 
 - Cas-OFFinder
-
+- OpenCL (required to run Cas-OFFinder)
 
 
 # Command
