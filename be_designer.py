@@ -221,9 +221,9 @@ class BEDesigner:
             fw.write('\t'.join(["CRISPR Target (5' to 3')", "Position", "Direction", "GC contents (%, w/d PAM)"]+[str(i) for i in range(self.mismatch + 1)]+['codon 0 pattern','','','','codon 1 pattern','','','','codon 2 pattern','','',''])+'\n')
             for line in self.targets[0][1]:
                 if self.isreversed:
-                    seq = line_s[1][len(self.pam_seq):]
+                    seq = line[0][len(self.pam_seq):]
                 else:
-                    seq = line_s[1][:-len(self.pam_seq)]
+                    seq = line[0][:-len(self.pam_seq)]
                 mut_info = []
                 for i in line[5]:
                     mut_info += [i[4], i[2], i[0], i[1]]
